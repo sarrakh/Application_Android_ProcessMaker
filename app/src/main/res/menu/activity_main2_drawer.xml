@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_demande"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Demande" />
+        <item
+            android:id="@+id/nav_participe"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Participé" />
+    </group>
+    <item android:title="Autres">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_action_pass"
+                android:title="Deconnexion" />
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mywork.ui.home.HomeFragment"
+        android:label="ISI"
+        tools:layout="@layout/fragment_home">
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_demande"
+        android:name="com.example.mywork.ui.demande.ActivitiesFragment"
+        android:label="Liste de Demandes"
+        tools:layout="@layout/fragment_activities" />
+
+    <fragment
+        android:id="@+id/nav_participe"
+        android:name="com.example.mywork.ui.participe.ParticipedFragment"
+        android:label="Liste de Participés"
+        tools:layout="@layout/fragment_participer" />
+</navigation>
